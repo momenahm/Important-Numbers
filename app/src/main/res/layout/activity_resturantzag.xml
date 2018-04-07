@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.me.importantnumbers.Zagaz.resturantzag">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#FFBC00"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="152dp"
+            android:layout_height="580dp"
+            android:background="@drawable/chef"
+
+            />
+
+
+
+    </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle"
+            android:text="اورينتال"
+            android:layout_marginTop="5dp"
+
+            android:textSize="30dp"
+            android:onClick="oriental"
+
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="paradis"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttonstyle"
+        android:textColor="@color/colorA"
+        android:textStyle="bold"
+        android:onClick="paradis"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maxim"
+            android:onClick="maxim"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginTop="5dp"
+            android:textSize="30dp"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="7Days"
+        android:background="@drawable/buttonstyle"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+
+        android:onClick="sday"
+        android:textColor="@color/colorA"
+        android:textStyle="bold"
+        />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الاصيل"
+        android:layout_marginTop="5dp"
+        android:textSize="30dp"
+        android:onClick="elasel"
+        android:background="@drawable/buttonstyle"
+        android:textColor="@color/colorA"
+        android:textStyle="bold"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hot burger"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp"
+            android:onClick="hotburger"
+            android:background="@drawable/buttonstyle"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="بيتزا اسكندريه"
+            android:textSize="30dp"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginTop="5dp"
+            android:onClick="PizzaAlex"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PIzza hut"
+            android:onClick="PizzaHut"
+            android:textSize="30dp"
+            android:background="@drawable/buttonstyle"
+            android:textColor="@color/colorA"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اسماك بحري"
+            android:textSize="30dp"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:onClick="asmaakbahry"
+            android:background="@drawable/buttonstyle"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mcdonald's"
+
+            android:textSize="30dp"
+            android:onClick="macdonals"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorA"
+            android:background="@drawable/buttonstyle"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="جمعة كريب"
+            android:background="@drawable/buttonstyle"
+            android:textSize="30dp"
+            android:onClick="GomaaCrep"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle"
+            android:text="sandwich"
+            android:textSize="30dp"
+            android:onClick="sandwich"
+            android:textColor="@color/colorA"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="crepe company"
+            android:textSize="30dp"
+
+            android:layout_marginTop="5dp"
+            android:onClick="crepcity"
+            android:background="@drawable/buttonstyle"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نور الشام"
+            android:textSize="30dp"
+            android:onClick="norelsham"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorA"
+            android:background="@drawable/buttonstyle"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مشويات العربي"
+            android:textSize="30dp"
+            android:onClick="elaraby"
+            android:layout_marginTop="5dp"
+
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            android:background="@drawable/buttonstyle"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مطعم الشرقاوي"
+            android:textSize="30dp"
+            android:onClick="sharawy"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttonstyle"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="السلطان"
+            android:textSize="30dp"
+            android:background="@drawable/buttonstyle"
+            android:textColor="@color/colorA"
+            android:onClick="soltanresturant"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حاتي الملوك"
+            android:background="@drawable/buttonstyle"
+            android:onClick="hatyelmolok"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="طأطأ"
+            android:onClick="tata"
+            android:textSize="25dp"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="شهد"
+            android:layout_marginTop="5dp"
+            android:textSize="30dp"
+            android:onClick="shahd"
+            android:background="@drawable/buttonstyle"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="زيزينيا"
+            android:textSize="30dp"
+            android:onClick="zezinia"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الزعيم"
+            android:textSize="30dp"
+            android:onClick="Elzaeem"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorA"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="kosharytahrir"
+            android:text="كشري التحرير"
+            android:textSize="30dp"
+            android:textColor="@color/colorA"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="كشري ابو احمد"
+            android:onClick="kosharyaboahmed"
+            android:layout_marginTop="5dp"
+            android:textSize="30dp"
+            android:textColor="@color/colorA"
+            android:background="@drawable/buttonstyle"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>
+</LinearLayout>

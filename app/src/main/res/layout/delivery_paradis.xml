@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="135dp"
+        android:layout_height="143dp"
+        android:background="@drawable/motorbike"
+        android:layout_gravity="center"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <TextView
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            android:text=" 055/2365855"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#2DF904"
+            android:text="Call"
+
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:id="@+id/paradis1"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <TextView
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            android:text=" 055/2385855"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#2DF904"
+            android:text="Call"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:id="@+id/paradis2"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

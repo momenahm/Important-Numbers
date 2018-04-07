@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FBC02D"
+    android:layout_height="match_parent"
+    tools:context="com.example.me.importantnumbers.Zagaz.SDaysResturant">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:background="@drawable/boy"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Menu"
+        android:onClick="menu"
+        android:layout_marginTop="50dp"
+        android:textSize="34dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttonstyle"
+        tools:layout_editor_absoluteX="8dp"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="delivery"
+        android:textSize="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"
+        android:onClick="delivery"
+        android:textColor="@android:color/white"
+
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Address"
+        android:textSize="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"
+        android:onClick="address"
+        android:textColor="@android:color/white"
+
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"/>
+
+</LinearLayout>

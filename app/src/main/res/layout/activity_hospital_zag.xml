@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFBC00"
+    android:layout_height="match_parent"
+    tools:context="com.example.me.importantnumbers.Zagaz.hospitalZag">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/doctor"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="مستشفي جامعة الزقازيق"
+            android:textSize="24dp"
+            android:textColor="@android:color/white"
+            android:onClick="gamahos"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/buttonstyle"
+            android:onClick="taiserzag"
+            android:text="مستشفي التيسير"
+            android:textSize="32dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/buttonstyle"
+            android:text="مستشفي العبور"
+            android:onClick="obourzag"
+            android:textSize="35dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginLeft="20dp"
+            android:text="مستشفي الاحرار"
+            android:onClick="ahhrarzag"
+            android:textSize="35dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="مستشفي الجاويش"
+            android:onClick="gawishzag"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/buttonstyle"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="مستشفي المبره"
+            android:textSize="35dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/buttonstyle"
+            android:onClick="mabarazag"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="مستشفي حمدي السيد"
+            android:textSize="26dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/buttonstyle"
+            android:onClick="hamdyzag"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

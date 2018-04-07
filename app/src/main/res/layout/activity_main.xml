@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFBC00"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.me.importantnumbers.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="568dp"
+        android:layout_marginLeft="-10dp"
+        android:background="@drawable/chef"
+        />
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="-190dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="-40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="المطاعم "
+                android:textSize="45dp"
+                android:textColor="#FFF59D"
+                android:layout_marginRight="25dp"
+
+                android:onClick="resturant"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/buttonstyle"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="70dp"
+                android:text="المستشفيات "
+                android:textSize="40dp"
+                android:textColor="#FFF59D"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:onClick="hoszagazig"
+                android:layout_marginTop="40dp"
+
+                android:background="@drawable/buttonstyle"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="قسم الشرطه "
+                android:textSize="38dp"
+                android:textColor="#FFF59D"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:onClick="police"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/buttonstyle"
+                android:textStyle="bold"
+
+                />
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="70dp"
+                android:text="المطافي "
+                android:textSize="45dp"
+                android:textColor="#FFF59D"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:onClick="matafy"
+                android:textStyle="bold"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView6"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="160dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/doctor"
+            />
+    </LinearLayout>
+</LinearLayout>

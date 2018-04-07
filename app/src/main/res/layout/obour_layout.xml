@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <TextView
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            android:text=" 055/2316363"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#2DF904"
+            android:text="Call"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:id="@+id/obour1"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            android:text=" 055/2302292"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#2DF904"
+            android:text="Call"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:id="@+id/obour2"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            android:text=" 055/2302295"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#2DF904"
+            android:text="Call"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:id="@+id/obour3"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    >
+
+    <TextView
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:text=" 055/2302296"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+
+        />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#2DF904"
+        android:text="Call"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:id="@+id/obour4"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/deliverybutton"
+        android:text="Address"
+        android:textColor="@android:color/white"
+        android:textSize="35dp"
+        android:id="@+id/obouraddress"
+        />
+
+
+
+</LinearLayout>
